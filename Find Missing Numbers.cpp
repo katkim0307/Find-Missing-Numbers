@@ -1,17 +1,4 @@
-// kk4036_hw10_q2.cpp: Find the Missing Value in an array
-// The findMissingVal func gets an array of ints arr and its logical size n.
-// All elements in arr are in the range { 0, 1, 2, ..., n }
-// Since the array contains n #s taken from a range of size n+1,
-// there must be at least one # that is missing (could be more than one
-// if there are duplicate values in arr).
-// When called, it should create and return a new array that contains 
-// all the #s in range { 0, 1, 2, ..., n } that are NOT in arr.
-// The func should also update the output parameter, resArrSize, with the
-// logical size of the new array that was created.
-// e.g. arr = [3, 1, 3, 0, 6, 4] -> [2, 5] and update resArrSize to 2
-// The function should run in linear time - theta(n) 
 
-#include "pch.h"
 #include <iostream>
 using namespace std;
 
